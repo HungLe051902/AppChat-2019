@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/custom_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Display UserName"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>
